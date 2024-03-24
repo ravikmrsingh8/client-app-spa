@@ -5,7 +5,7 @@ export const msalConfig: Configuration = {
     auth: {
         clientId: process.env.REACT_APP_CLIENT_ID ?? "",
         authority: "https://login.microsoftonline.com/common",
-        redirectUri: "http://localhost:3000/callback",
+        redirectUri: "https://orange-river-0f9866400.5.azurestaticapps.net/callback",
         postLogoutRedirectUri: "/"
     },
     system: {
